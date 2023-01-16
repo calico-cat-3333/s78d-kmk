@@ -1,0 +1,4 @@
+Windows 10 Logo,由原始图像调色得到，原始图像来自<a target="_blank" href="https://icons8.com/icon/108792/windows-10">Windows 10</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Windows xp Logo,来自<a target="_blank" href="https://icons8.com/icon/154/windows%E5%BE%BD%E6%A0%87">Windows徽标</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Windows 95 Logo,灰色版本由原始图像调色得到，原始图像来自<a target="_blank" href="https://icons8.com/icon/mdhenbUr2yHg/windows-95">Windows 95</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Debian Logo, 由原始图像调色得到，原始图像来自https://www.debian.org/logos/openlogo-nd.svg
