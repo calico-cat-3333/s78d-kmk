@@ -86,9 +86,9 @@ keyboard.keymap = [[
 ],[
     KC.ESC,  KC.F1,    KC.F2,    KC.F3,    KC.F4,   KC.F5, KC.F6,  KC.F7,     KC.PSCR,   KC.INS,    KC.DEL,  KC.BSLS, KC.BSPC,
     KC.GRV,  KC.N1,    KC.N2,    KC.N3,    KC.N4,   KC.N5, KC.N6,  KC.N7,     KC.N8,     KC.N9,     KC.N0,   KC.MINS, KC.EQL,
-    KC.TAB,  KC.Q,     KC.MS_UP, KC.E,     KC.R,    KC.T,  KC.Y,   KC.U,      MW_SUP,    KC.O,      KC.P,    KC.LBRC, KC.RBRC,
-    KC.CAPS, KC.MS_LT, KC.MS_DN, KC.MS_RT, KC.F,    KC.G,  KC.H,   KC.MB_LMB, KC.MB_MMB, KC.MB_RMB, KC.SCLN, KC.QUOT, KC.ENT,
-    KC.LSFT, KC.Z,     KC.X,     KC.C,     KC.V,    KC.B,  KC.N,   KC.M,      MW_SDN,    KC.DOT,    KC.SLSH, KC.UP,   KC.RSFT,
+    KC.TAB,  KC.NO,    KC.MS_UP, KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     MW_SUP,    KC.NO,     KC.NO,   KC.PGUP, KC.NO,
+    KC.CAPS, KC.MS_LT, KC.MS_DN, KC.MS_RT, KC.NO,   KC.NO, KC.NO,  KC.MB_LMB, KC.MB_MMB, KC.MB_RMB, KC.NO,   KC.PGDN, KC.ENT,
+    KC.LSFT, KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     MW_SDN,    KC.NO,     KC.NO,   KC.UP,   KC.RSFT,
     KC.LCTL, KC.TRNS,  KC.LGUI,  KC.LALT,  KC.TRNS, KC.NO, KC.SPC, KC.NO,     KC.HOME,   KC.END,    KC.LEFT, KC.DOWN, KC.RGHT,
 ]]
 
