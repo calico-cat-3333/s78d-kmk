@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="keyboard.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,17 @@
      inkscape:pagecheckerboard="1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.8116733"
-     inkscape:cx="524.65308"
-     inkscape:cy="238.72957"
+     inkscape:zoom="5.1241859"
+     inkscape:cx="357.91051"
+     inkscape:cy="340.83463"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="0"
      inkscape:window-y="40"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <rect
@@ -2241,13 +2243,6 @@
        y="85.186081" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.165"
-       id="rect32527-0-55-50-64-5"
-       width="13"
-       height="13"
-       x="80.070259"
-       y="85.186066" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.165"
        id="rect32527-0-55-50-64-6"
        width="13"
        height="13"
@@ -3828,11 +3823,6 @@
          style="font-size:6.35px;stroke-width:0.264583"
          x="43.070271"
          y="80.686066">Del</tspan></text>
-    <path
-       fill="#00b0ff"
-       d="m 85.77945,91.672859 -2.677668,-0.005 1.79e-4,2.27662 2.677489,0.3705 z m 0.357283,7.2e-4 v 2.69125 l 3.750592,0.51895 7.4e-4,-3.20377 z m -0.357283,-2.99654 -2.679634,0.37943 0.0025,2.25447 h 2.677114 z m 0.357283,-0.0506 v 2.68445 h 3.750592 v -3.21556 z"
-       id="path2-0"
-       style="fill:#000000;stroke-width:0.178642" />
     <text
        xml:space="preserve"
        style="font-size:9.87777px;line-height:1.25;font-family:'Terminus (TTF)';-inkscape-font-specification:'Terminus (TTF)';stroke-width:0.264583"
@@ -3871,6 +3861,24 @@
          style="font-size:7.05556px;stroke-width:0.264583"
          x="68.657257"
          y="81.530373">⌦</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.165"
+       id="rect32527-0-55-67-7-7-8-6-6-6-6-3"
+       width="13"
+       height="13"
+       x="80.070267"
+       y="85.186081" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'Terminus (TTF)';-inkscape-font-specification:'Terminus (TTF)';stroke-width:0.264583"
+       x="83.244751"
+       y="93.8"
+       id="text50151-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan50149-6-7"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="83.244751"
+         y="94.058334"></tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.165"
        id="rect32527-0-55-67-7-7-1-9-2"
