@@ -8,6 +8,7 @@ from kmk.scanners import DiodeOrientation
 from kmk.modules.layers import Layers
 from kmk.modules.mouse_keys import MouseKeys
 from kmk.modules.rapidfire import RapidFire
+from kmk.modules.combos import Combos, Chord
 from kmk.extensions.media_keys import MediaKeys
 from kmk.extensions.lock_status import LockStatus
 from kmk.extensions.LED import LED
@@ -16,6 +17,8 @@ from kmk.extensions.LED import LED
 keyboard = KMKKeyboard()
 #创建led对象
 leds = LED(led_pin=[board.GP6, board.GP5, board.GP7], brightness=0)
+#创建combos对象
+combos = Combos()
 
 #设置键盘接线引脚和扫描方向
 keyboard.col_pins = (board.GP28, board.GP27, board.GP26, board.GP22, board.GP21, board.GP20, board.GP19, board.GP18, board.GP17, board.GP16,)
@@ -55,10 +58,32 @@ class LEDLockStatus(LockStatus):
         if self.report_updated:
             self.set_lock_leds()
 
+#配置combos
+combos.combos = [
+#部分解决空格引起的鬼键问题，一般按下某个按键而为松开是按空格会触发鬼键，此处将空格及触发的鬼键处理为空格按下，即可部分解决鬼键问题，此解决方案仅适用于前述情况。
+Chord((14, 15, 45), KC.SPC, match_coord=True),
+Chord((14, 15, 44), KC.SPC, match_coord=True),
+Chord((14, 15, 35), KC.SPC, match_coord=True),
+Chord((14, 15, 34), KC.SPC, match_coord=True),
+Chord((14, 15, 25), KC.SPC, match_coord=True),
+Chord((14, 15, 24), KC.SPC, match_coord=True),
+Chord((14, 15,  5), KC.SPC, match_coord=True),
+Chord((14, 15,  4), KC.SPC, match_coord=True),
+Chord((16, 17, 47), KC.SPC, match_coord=True),
+Chord((16, 17, 46), KC.SPC, match_coord=True),
+Chord((16, 17, 37), KC.SPC, match_coord=True),
+Chord((16, 17, 36), KC.SPC, match_coord=True),
+Chord((16, 17, 27), KC.SPC, match_coord=True),
+Chord((16, 17, 26), KC.SPC, match_coord=True),
+Chord((16, 17,  7), KC.SPC, match_coord=True),
+Chord((16, 17,  6), KC.SPC, match_coord=True)
+]
+
 #附加模块和扩展
 keyboard.modules.append(Layers())
 keyboard.modules.append(MouseKeys())
 keyboard.modules.append(RapidFire())
+keyboard.modules.append(combos)
 keyboard.extensions.append(leds)
 keyboard.extensions.append(MediaKeys())
 keyboard.extensions.append(LEDLockStatus())
