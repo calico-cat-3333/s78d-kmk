@@ -107,7 +107,7 @@ keyboard.keymap = [[
     KC.TAB,  KC.Q,    KC.W,    KC.E,    KC.R,     KC.T,    KC.Y,   KC.U,  KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC,
     KC.CAPS, KC.A,    KC.S,    KC.D,    KC.F,     KC.G,    KC.H,   KC.J,  KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,
     KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,     KC.B,    KC.N,   KC.M,  KC.COMM, KC.DOT,  KC.SLSH, KC.PGUP, KC.RSFT,
-    KC.LCTL, KC.TRNS, KC.LGUI, KC.LALT, KC.TG(2), KC.NO,   KC.SPC, KC.NO, KC.HOME, KC.END,  KC.LEFT, KC.PGDN, KC.RGHT,
+    KC.RCTL, KC.TRNS, KC.LGUI, KC.LALT, KC.TG(2), KC.NO,   KC.SPC, KC.NO, KC.HOME, KC.END,  KC.LEFT, KC.PGDN, KC.RGHT,
 ],[
     KC.ESC,  KC.F1,    KC.F2,    KC.F3,    KC.F4,   KC.F5, KC.F6,  KC.F7,     KC.PSCR,   KC.INS,    KC.DEL,  KC.BSLS, KC.BSPC,
     KC.GRV,  KC.N1,    KC.N2,    KC.N3,    KC.N4,   KC.N5, KC.N6,  KC.N7,     KC.N8,     KC.N9,     KC.N0,   KC.MINS, KC.EQL,
