@@ -60,7 +60,7 @@ class LEDLockStatus(LockStatus):
 
 #配置combos
 combos.combos = [
-#部分解决空格引起的鬼键问题，一般按下某个按键而为松开是按空格会触发鬼键，此处将空格及触发的鬼键处理为空格按下，即可部分解决鬼键问题，此解决方案仅适用于前述情况。
+#部分解决空格引起的鬼键问题，一般按下某个按键而未松开时按空格会触发鬼键，此处将空格及触发的鬼键处理为空格按下，即可部分解决鬼键问题，此解决方案仅适用于前述情况。
 Chord((14, 15, 45), KC.SPC, match_coord=True),
 Chord((14, 15, 44), KC.SPC, match_coord=True),
 Chord((14, 15, 35), KC.SPC, match_coord=True),
