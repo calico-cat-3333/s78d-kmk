@@ -88,11 +88,6 @@ keyboard.extensions.append(leds)
 keyboard.extensions.append(MediaKeys())
 keyboard.extensions.append(LEDLockStatus())
 
-#定义部分长按键的别名
-#RapidFire提供的自动连击滚轮键
-MW_SUP=KC.RF(KC.MW_UP, timeout=500, interval=100)
-MW_SDN=KC.RF(KC.MW_DN, timeout=500, interval=100)
-
 #设置键位表，支持多层，目前0层为正常输入，1层为Fn键，2层为鼠标模式，可由Fn+左空格进入/退出
 keyboard.keymap = [[
     KC.ESC,  KC.F1,    KC.F2,   KC.F3,   KC.F4,  KC.F5, KC.F6,  KC.F7, KC.PSCR, KC.INS, KC.DEL,  KC.BSLS, KC.BSPC,
@@ -111,9 +106,9 @@ keyboard.keymap = [[
 ],[
     KC.ESC,  KC.F1,    KC.F2,    KC.F3,    KC.F4,   KC.F5, KC.F6,  KC.F7,     KC.PSCR,   KC.INS,    KC.DEL,  KC.BSLS, KC.BSPC,
     KC.GRV,  KC.N1,    KC.N2,    KC.N3,    KC.N4,   KC.N5, KC.N6,  KC.N7,     KC.N8,     KC.N9,     KC.N0,   KC.MINS, KC.EQL,
-    KC.TAB,  KC.NO,    KC.MS_UP, KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     MW_SUP,    KC.NO,     KC.NO,   KC.PGUP, KC.NO,
+    KC.TAB,  KC.NO,    KC.MS_UP, KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     KC.MW_UP,    KC.NO,     KC.NO,   KC.PGUP, KC.NO,
     KC.CAPS, KC.MS_LT, KC.MS_DN, KC.MS_RT, KC.NO,   KC.NO, KC.NO,  KC.MB_LMB, KC.MB_MMB, KC.MB_RMB, KC.NO,   KC.PGDN, KC.ENT,
-    KC.LSFT, KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     MW_SDN,    KC.NO,     KC.NO,   KC.UP,   KC.RSFT,
+    KC.LSFT, KC.NO,    KC.NO,    KC.NO,    KC.NO,   KC.NO, KC.NO,  KC.NO,     KC.MW_DN,    KC.NO,     KC.NO,   KC.UP,   KC.RSFT,
     KC.LCTL, KC.TRNS,  KC.LGUI,  KC.LALT,  KC.TRNS, KC.NO, KC.SPC, KC.NO,     KC.HOME,   KC.END,    KC.LEFT, KC.DOWN, KC.RGHT,
 ]]
 
